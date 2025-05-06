@@ -18,4 +18,4 @@ spec:
       - name: petclinic
         image: devopswithdayanand/jenkins2-test:3.4.0
         ports:
-        - containerPort: 80
+        - containerPort: 8080
