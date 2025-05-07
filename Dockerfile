@@ -6,7 +6,7 @@ COPY pom.xml .
 
 COPY src ./src
 
-CMD mvn clean package -DskipTests
+RUN mvn clean package -DskipTests
 
 
 
